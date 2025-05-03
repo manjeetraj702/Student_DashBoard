@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>🎓 Dashboard</h2>
+      <nav>
+        <a href="#">🏠 Home</a>
+        <a href="#">📘 Courses</a>
+        <a href="#">📊 Progress</a>
+        <a href="#">🧾 Assignments</a>
+        <a href="#">📅 Schedule</a>
+        <a href="#">📢 Announcements</a>
+        <a href="#">⚙️ Settings</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main">
+      <header class="topbar">
+        <div class="profile-header">
+          <img src="https://i.pravatar.cc/80?img=12" alt="Profile Photo" class="profile-pic">
+          <div>
+            <h1>Rahul Kumar</h1>
+            <p>BCA - Semester 4</p>
+          </div>
+        </div>
+      </header>
+
+      <!-- Courses Section -->
+      <section class="card">
+        <div style="display: flex; align-items: center;">
+          <h3 style="margin-right: 10px;">📘 Enrolled Courses In  &nbsp;&nbsp;<img src="Coding Age.avif" alt=""
+              style="height: 25px;"> Coding Age 
+          </h3>
+        </div>
+        <div class="course-grid">
+          <div class="course-box java">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968282.png" alt="Java">
+            <p>Java Programming</p>
+          </div>
+          <div class="course-box dsa">
+            <img src="https://cdn-icons-png.flaticon.com/512/3810/3810291.png" alt="DSA">
+            <p>Data Structures</p>
+          </div>
+          <div class="course-box web">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="Web Dev">
+            <p>Web Development</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Progress Section -->
+      <section class="card">
+        <h3>📈 Progress</h3>
+        <div class="progress">
+          <label>Java</label>
+          <div class="bar">
+            <div class="fill java"></div>
+          </div>
+
+          <label>DSA</label>
+          <div class="bar">
+            <div class="fill dsa"></div>
+          </div>
+
+          <label>Web Dev</label>
+          <div class="bar">
+            <div class="fill web"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Assignments -->
+      <section class="card">
+        <h3>🧾 Assignments</h3>
+        <ul>
+          <li>✔️ Java Lab Report – May 3</li>
+          <li>📝 Web Dev Mini Project – May 5</li>
+          <li>⏳ DSA Practice Problems – May 7</li>
+        </ul>
+      </section>
+
+      <!-- Schedule -->
+      <section class="card">
+        <h3>📅 Upcoming Schedule</h3>
+        <ul>
+          <li>🖥️ Java Class – May 4, 10:00 AM</li>
+          <li>💡 DSA Discussion – May 4, 2:00 PM</li>
+          <li>🌐 Web Dev Workshop – May 6, 11:00 AM</li>
+        </ul>
+      </section>
+
+      <!-- Announcements -->
+      <section class="card">
+        <h3>📢 Announcements</h3>
+        <ul>
+          <li>🚨 Mid-Term Exams begin May 15</li>
+          <li>🎙️ AI Webinar scheduled May 7</li>
+        </ul>
+      </section>
+
+      <!-- Mentor Info -->
+      <section class="card">
+        <h3>🧑‍🏫 Mentor</h3>
+        <p><strong>Name:</strong> Prof. Anita Sharma</p>
+        <p><strong>Email:</strong> anita.sharma@college.edu</p>
+        <p><strong>Office Hours:</strong> Mon–Wed, 3–5 PM</p>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>
